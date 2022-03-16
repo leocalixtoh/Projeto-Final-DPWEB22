@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Outfit:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(19, 0, 0, 0) 80.44%, rgba(19, 0, 0, 0) 89.85%, #000000 90.84%);
+    background-color: #0F9786;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+
+.logo-voltar-pagina-inicial{
+
+}
+
+.abas-links{
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.abas-links-selecionada{
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+
+
+}
+
+#Abas{
+    padding: 10px 0;
+}
+
+.titulo-principal{
+    font-family: 'Bitter'; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 22px;
+    
+    
+    color: #000000;
+    text-align: center;
+
+}
+
+.subtitulo-vikings{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+     color: #fff;
+     margin-top: 25px;
+}
+
+.imagem-era-vikings{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, rgba(19, 0, 0, 0) 88.76%, #000000 91.22%);
+
+}
+
+.titulo-quem-foi-os-vikings{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+
+    color: #000000;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.subtitulo-quem-foi-os-vikings{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    
+    line-height: 21px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+
+i{
+    font-size: 70px;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 48%;
+}
+
+.imagem-quem-foi-os-vikings{
+
+}
+
+.imagem2-quem-foi-os-vikings{
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+
+.titulo-sociedade-viking{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 41px;
+    margin-top: 120px;
+    margin-bottom: 22px;
+    text-align: center;
+
+    
+    color: #000000;
+}
+
+.subtitulo-sociedade-viking{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+
+}
+
+.imagem-sociedade-viking{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+    padding-bottom: 63px;
+}
+
+.titulo-religiao-viking{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    margin-top: 44px;
+    margin-bottom: 12px;
+
+    text-align: center;
+
+    
+    color: #000000;
+}
+
+.subtitulo-religiao-viking{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+
+
+
+.imagem-vikings-religiao{
+    padding-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    
+}
+
+
+
+
+
+
+footer{
+    padding-left: 100px;
+    padding: 70px;
+    margin-top: 34px;
+
+
+}
+
+.txts-rodape{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    
+    color: #fff;
+
+}
+
+.txts-rodape-links{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    text-decoration: none;
+    margin: 12px 0;
+    
+    color: #FFFFFF;
+
+}
+
+.txt-rodape-tudo{
+    padding-right: 210px ;
+}
+
+.txt-rodape-contato{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+
+    color: #fff;
+}
+
+.icones-rodape{
+    margin: 5px;
+}
